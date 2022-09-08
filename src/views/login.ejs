@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %> 
+<body>
+	<h1><%= tittle %> </h1>
+	<ul>
+		<li><a href="/">index</a></li>
+		<li><a href="/music">music</a></li>
+		<li><a href="/login">login</a></li>
+		<li><a href="/about">about</a></li>
+		<li><a href="/contact">contact</a></li>
+		<li><a href="/admin">admin</a></li>
+	</ul>
+
+    <form action="/admin" method="get">
+        <div class="div-submit">
+            <label for="admin">user</label>
+            <input type="text" name="user" id="admin">
+			<button type="submit">submit</button>
+        </div>
+		<div >
+			
+		</div>
+
+        
+    </form>
+	<img src="/images/node.jpg" width="60%">
+
+</body>
+</html>
